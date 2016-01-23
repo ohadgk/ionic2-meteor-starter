@@ -6,6 +6,7 @@ module.exports = {
     path.normalize('es6-shim/es6-shim.min'),
     'reflect-metadata',
     'web-animations.min',
+   // 'ionic2-meteor',
     path.normalize('zone.js/dist/zone-microtask'),
     path.resolve('app/app')
   ],
@@ -22,12 +23,18 @@ module.exports = {
         query: {
           'doTypeCheck': true
         },
-        include: path.resolve('app'),
+        include: [
+            path.resolve('app'),
+           // path.resolve('node_modules/ionic2-meteor'),
+            ],
         exclude: /node_modules/
       },
       {
         test: /\.js$/,
-        include: path.resolve('node_modules/angular2'),
+        include: [
+            path.resolve('node_modules/angular2'),
+           // path.resolve('node_modules/ionic2-meteor'),
+            ],
         loader: 'strip-sourcemap'
       }
     ],
@@ -40,7 +47,8 @@ module.exports = {
   },
   resolve: {
     alias: {
-      'web-animations.min': path.normalize('ionic-framework/js/web-animations.min')
+      'web-animations.min': path.normalize('ionic-framework/js/web-animations.min'),
+  //     'ionic2-meteor': path.normalize('ionic2-meteor/dist/meteor_app')
     },
     extensions: ["", ".js", ".ts"]
   }

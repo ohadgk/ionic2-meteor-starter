@@ -1,11 +1,13 @@
+import {MeteorApp} from 'ionic2-meteor/dist/meteor_app';
 import {App, Platform} from 'ionic-framework/ionic';
 import {TabsPage} from './pages/tabs/tabs';
+
 
 // https://angular.io/docs/ts/latest/api/core/Type-interface.html
 import {Type} from 'angular2/core';
 
 
-@App({
+@MeteorApp({
   template: '<ion-nav [root]="rootPage"></ion-nav>',
   config: {} // http://ionicframework.com/docs/v2/api/config/Config/
 })

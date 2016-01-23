@@ -1,10 +1,9 @@
 {
-  "name": "meteor",
+  "name": "meteor-ionic2-client",
   "version": "0.0.1",
-  "description": "ionic2 meteor integration",
-  "main": "build/app.js",
+  "description": "ionic2 meteor-client integration",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "author": "Ohad Galor Kimchi",
   "dependencies": {
