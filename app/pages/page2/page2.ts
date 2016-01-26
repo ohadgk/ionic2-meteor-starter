@@ -19,4 +19,7 @@ export class Page2 extends MeteorComponent{
        this.parties = Parties.find();
           console.log(this.parties)
     }
+    removeParty(party) {
+        Parties.remove(party._id);
+    }
 }
