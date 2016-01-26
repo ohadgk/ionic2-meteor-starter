@@ -1,0 +1,1 @@
+export.Parties = new Mongo.Collection('parties')
