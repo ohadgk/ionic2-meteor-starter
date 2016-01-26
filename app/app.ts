@@ -1,6 +1,8 @@
-import {MeteorApp} from 'ionic2-meteor/dist/meteor_app';
+import {MeteorApp} from 'ionic2-meteor';
 import {App, Platform} from 'ionic-framework/ionic';
 import {TabsPage} from './pages/tabs/tabs';
+
+import {Parties} from './collections/parties';
 
 
 // https://angular.io/docs/ts/latest/api/core/Type-interface.html
