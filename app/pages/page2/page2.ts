@@ -11,8 +11,8 @@ import {MeteorComponent} from 'angular2-meteor-client';
  // directives: [PartiesList]
 })
 export class Page2 extends MeteorComponent{
-    parties: Array<any>;
-   //parties: Mongo.Cursor<Object>;
+   //parties: Array<any>;
+   parties: Mongo.Cursor<Object>;
 
     constructor () {
        super()
