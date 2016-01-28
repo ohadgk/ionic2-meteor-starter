@@ -1,0 +1,14 @@
+{
+  "compilerOptions":{
+        "experimentalDecorators": true,
+        "module": "system",
+        "target": "es5"
+        },
+  "files": [
+    "typings/angular2-meteor.d.ts",
+    "typings/party.d.ts",
+    "client/app.ts",
+    "server/main.ts"
+  ]
+ }
+        
