@@ -16,7 +16,7 @@ import {PartiesForm} from 'client/parties-form/parties-form'
     directives: [PartiesForm]
 })
 class Socially {
-    parties: Mongo.Crusor<Object>
+    parties: Mongo.Cursor<Object>
     constructor () {
         this.parties = Parties.find()
     }

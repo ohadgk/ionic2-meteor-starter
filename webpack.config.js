@@ -20,8 +20,16 @@ module.exports = {
       {
         test: /\.ts$/,
         loader: 'awesome-typescript',
+        //loader: 'ts-loader',
         query: {
-          'doTypeCheck': true
+          'doTypeCheck': true,
+        //   'ignoreDiagnostics': [
+        //                 2403, // 2403 -> Subsequent variable declarations
+        //                 2300, // 2300 -> Duplicate identifier
+        //                 2374, // 2374 -> Duplicate number index signature
+        //                 2375  // 2375 -> Duplicate string index signature
+        //             ]
+
         },
         include: [
             path.resolve('app'),

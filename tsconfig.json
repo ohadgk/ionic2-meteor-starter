@@ -6,13 +6,13 @@
     "rootDir": ".",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "sourceMap": false,
-    "sourceRoot": "",
+    "sourceMap": true,
     "inlineSourceMap": false,
     "inlineSources": false
   },
   "files": [
-    "app/app.ts"
+    "app/app.ts",
+    "typings/ionic2-meteor/ionic2-meteor.d.ts"
   ],
   "exclude": [
     "node_modules"
