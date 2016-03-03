@@ -1,6 +1,6 @@
 # ionic2-meteor-starter 
 
-*Ionic2 is in alpha, angular2 is in beta and this package will use meteor 1.3 eventually, which is also in beta. Everything is very basic and future to change. But this is a very good point to start development using this frameworks, when those frameworks will be ready you can already have the code of your project ready for them.*
+*Ionic2 & angular2 is in beta and this package will use meteor 1.3 eventually, which is also in beta. Everything is very basic and future to change. But this is a very good point to start development using this frameworks, when those frameworks will be ready you can already have the code of your project ready for them.*
 
 This package bundles ionic2 and meteor.
 It adds to an ionic2 project meteor abilities.
@@ -18,6 +18,7 @@ It also wher meteor packages like acconts-password sould be installed so they co
 The meteor-core contains all the dependencies from the bootstrap chapter of [this amazing and very recommended angular2-meteor tutorial](http://www.angular-meteor.com/tutorials/socially/angular2/bootstrapping).
 
 ## installation 
+**make sure you use node 5.x**
 
 you must have ionic2 cli and meteor 1.2+ installed.
 you also must have tsd installed globally (zone.js postinstall script runing tsd install)
