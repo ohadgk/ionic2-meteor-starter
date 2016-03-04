@@ -1,6 +1,6 @@
 # Ionic2-meteor-starter 
 
-*Ionic2 & angular2 are in beta and this package will use meteor 1.3 eventually, which is also in beta. Everything is very basic and future to change. But this is a very good starting point to use and learn theas frameworks. When those frameworks will be ready you can already have large part of the code of your project ready for them.*
+*Ionic2 & angular2 are in beta and this package will use meteor 1.3 eventually, which is also in beta. Everything is very basic and future to change. But this is a very good starting point to use and learn these frameworks. When those frameworks will be ready you can already have large part of the code of your project ready for them.*
 
 This package bundles ionic2 and meteor.
 It adds to an existing ionic2 project meteor client abilities and meteor backend.
@@ -13,7 +13,7 @@ The meteor-core folder contains a server folder which contains the server logic 
 a client folder that contains the web-client/io that will be served from your deploy URL.
 
 In the index.html you can configure to which meteor server the ionic application will connect thanks to the [angular2-meteor-package](https://www.npmjs.com/package/angular2-meteor-client).
-It also wher meteor packages like acconts-password sould be installed so they could be exposed to the ionic2 app.
+It also where meteor packages like accounts-password should be installed so they could be exposed to the ionic2 app.
 
 The meteor-core contains all the dependencies from the bootstrap chapter of [this very recommended angular2-meteor tutorial](http://www.angular-meteor.com/tutorials/socially/angular2/bootstrapping).
 
@@ -44,9 +44,9 @@ npm install
 ionic serve
 
 ```
-Page2 is where the magic happen. The MeteorComponent class is used to 'watch' the parties and display them a any given moment, reactivly.  (see the [angular2-meteor tutorial](http://www.angular-meteor.com/tutorials/socially/angular2/bootstrapping) for more details)
+Page2 is where the magic happen. The MeteorComponent class is used to 'watch' the parties and display them a any given moment, reactively.  (see the [angular2-meteor tutorial](http://www.angular-meteor.com/tutorials/socially/angular2/bootstrapping) for more details)
 Right now the app connecting to ionic2.meteor.com (see www/index.html).
-You can go [there](http://ionic2.meteor.com/) add new partiesand see the reactivity in your real device if you want.
+You can go [there](http://ionic2.meteor.com/) add new parties and see the reactivity in your real device if you want.
 
 In order to connect the ionic application to the meteor-core/server first you need to run it:
 ``` bash
@@ -55,7 +55,7 @@ meteor
 ```
 
 Wait for the build to finish and go to the output URL, then tell the ionic app to connect to this URL:
-Chage this
+change this
 ``` html
 <script>DDP_DEFAULT_CONNECTION_URL = 'http://ionic2.meteor.com';</script>
 ```
