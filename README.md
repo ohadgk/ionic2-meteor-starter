@@ -44,7 +44,7 @@ npm install
 ionic serve
 
 ```
-Page2 is where the magic happen. The MeteorComponent class is used to 'watch' the parties and display them a any given moment, reactively.  (see the [angular2-meteor tutorial](http://www.angular-meteor.com/tutorials/socially/angular2/bootstrapping) for more details)
+Page2 is where the magic happen. The MeteorComponent class is used to 'watch' the parties and display them in any given moment, reactively.  (see the [angular2-meteor tutorial](http://www.angular-meteor.com/tutorials/socially/angular2/bootstrapping) for more details, it will truly help you if you found yourself looking at this project).
 Right now the app connecting to ionic2.meteor.com (see www/index.html).
 You can go [there](http://ionic2.meteor.com/) add new parties and see the reactivity in your real device if you want.
 
@@ -55,6 +55,7 @@ meteor
 ```
 
 Wait for the build to finish and go to the output URL, then tell the ionic app to connect to this URL:
+
 change this
 ``` html
 <script>DDP_DEFAULT_CONNECTION_URL = 'http://ionic2.meteor.com';</script>
